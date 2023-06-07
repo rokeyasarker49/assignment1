@@ -1,0 +1,134 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+
+        background: url(../images/header.jpg)no-repeat;
+        background-size: cover;
+}
+   .nav-link {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    ul li {
+        font-size: 17px;
+        font-weight: 20px;
+    }
+    
+/*    ul li:last-child {
+        background-color: rgb(0 175 170);
+        border-radius: 50px;
+        border: 1px solid transparent;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    ul li:last-child a {
+        color: white !important;
+    }
+    
+    ul li:last-child:hover a{
+        color:  rgb(0 175 170) !important;
+    }
+    
+    ul li:last-child:hover {
+        background-color:  transparent;
+        border: 1px solid  rgb(0 175 170);
+    }*/
+  
+    ul li {
+        font-size: 22px;
+        font-weight: 20px;
+    }
+    .navbar {
+     /* background-color: antiquewhite; */
+    }
+
+  .content {
+     margin-left: 8%;
+     margin-top: 15%;
+  }
+
+  .myButton {
+     background-color: #4e6bff ;
+     border-radius: 50px;
+     border: 1px solid transparent;
+     transition: all 0.5s ease-in-out;
+     padding: 8px 15px;
+ }
+ .myButton:hover {
+     background-color:  transparent;
+     border: 1px solid #4e6bff;
+ }
+ 
+ .myButton a {
+     color: white !important;
+     text-decoration: none;
+ }
+ 
+ .myButton:hover a {
+     color: #4e6bff ;
+ }
+ a {
+     text-decoration: none;
+ }
+ .about-image img{
+     width: 347px;
+     height: 100%;
+
+ }
+ .about-section .container {
+     flex-direction: row;
+
+ }
+ /* .card {
+    border: none;
+ } */
+
+ .carousel-indicators [data-bs-target] {
+    background-color: #4f30fddd;  /* fallback for old browsers */
+ background-color: -webkit-linear-gradient(to right, #3571f379,  #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+ background-color: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ padding: 1px;
+ border-radius: 2px;
+ 
+ }
+ 
+ .carousel-item {
+     margin-bottom: 80px;
+ }
+
+ /* .price-section { 
+    background: url(../images/background-wave.jpg)no-repeat;
+        background-size: cover;
+ }*/
+
+ .review {
+    background-color: antiquewhite;
+ }
+
+ .join-section {
+    background-color: rgb(87, 99, 145);
+ }
+
+ .get {
+    background-color: antiquewhite;
+    color: black;
+    width: 48%;
+    height: 27%;
+ }
+
+ ol {
+    list-style-type: none;
+ }
+
+ .card-img-top .service {
+    width: 28%;
+    
+   
+ }
+
+ 
