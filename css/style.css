@@ -110,15 +110,19 @@ header{
     background-color: antiquewhite;
  }
 
- .join-section {
+ /* .join-section {
     background-color: rgb(87, 99, 145);
- }
+ }*/
 
  .get {
     background-color: antiquewhite;
     color: black;
-    width: 48%;
-    height: 27%;
+    /* width: 633%; */
+    /* height: auto; */
+    /* width: 48%; */
+    /* height: 27%; */
+    /* width: 83%; */
+    /* height: 115%; */
  }
 
  ol {
