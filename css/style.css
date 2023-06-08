@@ -14,39 +14,13 @@ header{
         font-weight: bold;
     }
     
-    ul li {
-        font-size: 17px;
-        font-weight: 20px;
-    }
-    
-/*    ul li:last-child {
-        background-color: rgb(0 175 170);
-        border-radius: 50px;
-        border: 1px solid transparent;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    ul li:last-child a {
-        color: white !important;
-    }
-    
-    ul li:last-child:hover a{
-        color:  rgb(0 175 170) !important;
-    }
-    
-    ul li:last-child:hover {
-        background-color:  transparent;
-        border: 1px solid  rgb(0 175 170);
-    }*/
+
   
     ul li {
         font-size: 22px;
         font-weight: 20px;
     }
-    .navbar {
-     /* background-color: antiquewhite; */
-    }
-
+    
   .content {
      margin-left: 8%;
      margin-top: 15%;
@@ -117,12 +91,12 @@ header{
  .get {
     background-color: antiquewhite;
     color: black;
-    /* width: 633%; */
-    /* height: auto; */
-    /* width: 48%; */
-    /* height: 27%; */
-    /* width: 83%; */
-    /* height: 115%; */
+    /* width: 633%; 
+       height: auto; */
+    /* width: 48%; 
+       height: 27%; */
+    /* width: 83%; 
+       height: 115%; */
  }
 
  ol {
@@ -135,4 +109,146 @@ header{
    
  }
 
- 
+
+ /*image  overlay */
+
+
+  .slide-top{
+    position: relative;
+  }
+  .slide-top img{
+    width: 100%;
+    height: auto;
+    display: block;
+   
+  }
+  .two-slide{
+   position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(74, 83, 145, 0.46);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: 0.6s; 
+   
+  }
+ .slide-top:hover .two-slide {
+    height:100%;
+    bottom: 0;
+ }
+.two{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+   
+
+}
+ .slide-bottom{
+    position: relative;
+ }
+  
+  .three-slide{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color : rgba(131, 76, 119, 0.393);
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.6s;
+   
+  }
+  .slide-bottom:hover .three-slide{
+    height: 100%;
+    top: 0;
+    
+  }
+  .slide-bottom img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .three{
+    position: absolute;
+    color:  rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+  }
+  
+
+  
+  .slide-right{
+    position: relative;
+  }
+  .slide-right img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .four-slide {
+    position: absolute;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(19, 41, 46, 0.374);
+    overflow: hidden;
+    transition: all 0.6s;
+
+  }
+  .slide-right:hover .four-slide{
+    width: 100%;
+    left: 0;
+    
+  }
+  .four{
+    position: absolute;
+    color:  rgb(255, 255, 255);
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+  }
+  .slide-left{
+    position: relative;
+  }
+  .slide-left img{
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  .five-slide{
+    position: absolute;
+    right: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(203, 127, 168, 0.281);
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    transition: all 0.6s;
+  }
+.slide-left:hover .five-slide{
+    width: 100%;
+    right: 0;
+}
+  
+  .five{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    color: rgb(12, 12, 12);
+  }
+
+
+
+
